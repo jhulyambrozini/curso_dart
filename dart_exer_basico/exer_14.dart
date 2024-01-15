@@ -6,9 +6,9 @@ void main() {
   int num = Random().nextInt(100);
 
   print('número em real: R\$ $num');
-  print('numero em dolar: US\$ ${converte(num)}');
+  print('numero em dolar: US\$ ${converteToDolar(num)}');
 }
 
-converte(int num) {
-  return (num * 4.65).toStringAsFixed(2);
+double converteToDolar(int num) {
+  return double.parse((num * 4.65).toStringAsFixed(2));
 }
