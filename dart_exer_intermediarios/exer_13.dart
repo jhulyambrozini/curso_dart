@@ -2,10 +2,11 @@
 
 main() {
   List<Map<String, num>> listNotas = [
-    {'nota': 6.7, 'peso': 1},
-    {'nota': 5.3, 'peso': 2},
-    {'nota': 4.9, 'peso': 3},
-    {'nota': 9.1, 'peso': 4},
+    {'nota': 652.1, 'peso': 2},
+    {'nota': 737, 'peso': 4},
+    {'nota': 624.2, 'peso': 1},
+    {'nota': 588.8, 'peso': 4},
+    {'nota': 800, 'peso': 4},
   ];
 
   print(mediaPonderada(listNotas));
