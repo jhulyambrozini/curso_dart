@@ -4,8 +4,6 @@ class Calculadora {
   num num1;
   num num2;
 
-  // late num _calc;
-
   Calculadora({required this.num1, required this.num2});
 
   num soma() {

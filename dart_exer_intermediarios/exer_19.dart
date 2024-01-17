@@ -39,6 +39,4 @@ main() {
   print(agenda.getContatos());
 
   agenda.remove(contato1.tel);
-
-  print(agenda.getContatos());
 }

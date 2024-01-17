@@ -10,6 +10,6 @@ fatorial(int numero) {
   }
 }
 
-void main(List<String> args) {
-  print(fatorial(-5));
+void main() {
+  print(fatorial(5));
 }
